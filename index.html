@@ -2,94 +2,36 @@
 <html lang="en">
 
 <head>
+    <title>Javascript Game</title>
+    <link rel="stylesheet" href="out/style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egy szuper oldal</title>
+    <!-- http://proger.i-forge.net/The_smallest_transparent_pixel/ -->
+    <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=">
 </head>
 
 <body>
+    <div class="container">
+        <div class="scoreBoard">
+            <p class="titletext">Devil's luck</p>
+            <div class="scoreBoardBackground">
+                <div class="modes">
+                    <button class="modebtn" id="easymode">EASY</button>
+                    <button class="modebtn" id="hardmode">HARD</button>
+                </div>
+            <p class="whitetext">SCORE<br><span id="score" class="redtext">0</span></p>
+            <p class="whitetext">MOVES<br><span id="movesclick" class="redtext">0</span></p>
+            <p class="whitetext">TIME<br><span id="timer" class="redtext">0</span></p>
+            
+        </div>
+        </div>
+        <div class="gameField">
+            <div>
+                <img id="gameover" src="img/gameover.jpg" alt="gameover">
+            </div>
+        </div>
+    </div>
 
-    <h1>Home</h1>
-
-    <ul>
-
-
-
-        <li>
-
-            <a href="/index.html">Home</a>
-
-        </li>
-        <li>
-
-            <a href="/products.html">Products</a>
-
-        </li>
-        <li>
-
-            <a href="/Orders/order.html">Orders</a>
-
-        </li>
-
-        <li>
-
-            <a href="/about.html">About</a>
-
-        </li>
-
-    </ul>
-
-
-
-    <h1>Fantastic Burger</h1>
-    <ul>
-
-        <li>Meat lover</li>
-        <li>Vegatarian</li>
-        <li>Piedone</li>
-
-    </ul>
-
-    <h2>Additions</h2>
-
-    <ol>
-
-        <li>Tomato</li>
-        <li>Apple</li>
-        <li>Pepper</li>
-
-    </ol>
-
-    <ol>
-
-        <li>Choose</li>
-        <li>Buy</li>
-        <li>Adress</li>
-        <li>Eat</li>
-
-    </ol>
-
-    <a href="https://wolt.com/hu/hun/budapest/restaurant/retro-burger">
-
-        Burger Cucc
-
-    </a>
-
-    <a href="Orders/order.html">
-
-        Order Cucc
-
-    </a>
-
-    <a target="blank" href="https://wolt.com/hu/hun/budapest/restaurant/retro-burger">
-
-        <img width="56" src="img/1556637308-Wjt8na8hm_md.jpg" alt="tasty burger">
-
-    </a>
-
-
-
-
+    <script src="game.js"></script>
 </body>
 
 </html>
